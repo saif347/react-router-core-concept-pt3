@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link, useLoaderData, useNavigate } from 'react-router-dom';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 
 const UserDetails = () => {
     const users = useLoaderData()
