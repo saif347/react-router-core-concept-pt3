@@ -1,0 +1,30 @@
+.nav a{
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.nav a:hover{
+    background-color: red;
+    color: white;
+}
+
+.box{
+    margin-top: 80px;
+    padding: 10px;
+    border:  2px solid violet;
+    border-radius: 15px;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+
+}
+
+.nav a.active{
+    background-color: red;
+    color: white;
+}
